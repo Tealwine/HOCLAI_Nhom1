@@ -17,19 +17,30 @@ namespace GIUAKY_NHOM1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnChia_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // Lấy giá trị từ TextBox và chuyển thành số thực
+                double num1 = Convert.ToDouble(txtSo1.Text);
+                double num2 = Convert.ToDouble(txtSo2.Text);
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+                // Kiểm tra điều kiện chia cho 0
+                if (num2 == 0)
+                {
+                    MessageBox.Show("Lỗi: Không thể chia cho 0!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    // Thực hiện phép chia
+                    double result = num1 / num2;
+                    txtKq.Text = result.ToString();
+                }
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Lỗi: Vui lòng nhập số hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
