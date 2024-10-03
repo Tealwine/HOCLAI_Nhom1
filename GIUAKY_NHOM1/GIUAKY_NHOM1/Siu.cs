@@ -42,5 +42,19 @@ namespace GIUAKY_NHOM1
                 MessageBox.Show("Lỗi: Vui lòng nhập số hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                int so1 = int.Parse(txtSo1.Text);
+                int so2 = int.Parse(txtSo2.Text);
+                txtKq.Text = (so1 - so2).ToString();
+            }
+            catch
+            {
+                txtKq.Text = "Lỗi: Nhập số hợp lệ!";
+            }
+        }
     }
 }

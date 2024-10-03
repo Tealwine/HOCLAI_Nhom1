@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\bin\Debug\GIUAKY_NHOM1.exe.config
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\bin\Debug\GIUAKY_NHOM1.exe
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\bin\Debug\GIUAKY_NHOM1.pdb
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.csproj.AssemblyReference.cache
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.Properties.Resources.resources
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.Siu.resources
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.csproj.GenerateResource.cache
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.csproj.CoreCompileInputs.cache
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.exe
+C:\Users\ACER\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.pdb
+=======
 C:\Users\admin\OneDrive\Desktop\GithubClone\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\bin\Debug\GIUAKY_NHOM1.exe.config
 C:\Users\admin\OneDrive\Desktop\GithubClone\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\bin\Debug\GIUAKY_NHOM1.exe
 C:\Users\admin\OneDrive\Desktop\GithubClone\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\bin\Debug\GIUAKY_NHOM1.pdb
@@ -8,3 +20,4 @@ C:\Users\admin\OneDrive\Desktop\GithubClone\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHO
 C:\Users\admin\OneDrive\Desktop\GithubClone\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.csproj.CoreCompileInputs.cache
 C:\Users\admin\OneDrive\Desktop\GithubClone\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.exe
 C:\Users\admin\OneDrive\Desktop\GithubClone\HOCLAI_Nhom1\GIUAKY_NHOM1\GIUAKY_NHOM1\obj\Debug\GIUAKY_NHOM1.pdb
+>>>>>>> main
