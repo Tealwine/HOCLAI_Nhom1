@@ -18,29 +18,55 @@ namespace GIUAKY_NHOM1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnChia_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // Lấy giá trị từ TextBox và chuyển thành số thực
+                double num1 = Convert.ToDouble(txtSo1.Text);
+                double num2 = Convert.ToDouble(txtSo2.Text);
 
+                // Kiểm tra điều kiện chia cho 0
+                if (num2 == 0)
+                {
+                    MessageBox.Show("Lỗi: Không thể chia cho 0!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    // Thực hiện phép chia
+                    double result = num1 / num2;
+                    txtKq.Text = result.ToString();
+                }
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Lỗi: Vui lòng nhập số hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
-
+            try
+            {
+                int so1 = int.Parse(txtSo1.Text);
+                int so2 = int.Parse(txtSo2.Text);
+                txtKq.Text = (so1 - so2).ToString();
+            }
+            catch
+            {
+                txtKq.Text = "Lỗi: Nhập số hợp lệ!";
+            }
         }
 
-        private void label3_Click(object sender, EventArgs e)
+
+        private void btnNhan_Click(object sender, EventArgs e)
         {
+            double num1 = double.Parse(txtSo1.Text);
+            double num2 = double.Parse(txtSo2.Text);
 
+            // Thực hiện phép nhân
+            double result = num1 * num2;
+            txtKq.Text = result.ToString();
         }
-
-		private void button3_Click(object sender, EventArgs e)
-		{
-			double num1 = double.Parse(txt1.Text);
-			double num2 = double.Parse(txt2.Text);
-
-			// Thực hiện phép nhân
-			double result = num1 * num2;
-            txtketqua.Text = result.ToString();
-		}
-	}
+    }
 }
