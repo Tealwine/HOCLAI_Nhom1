@@ -30,7 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnNhan = new System.Windows.Forms.Button();
             this.btnChia = new System.Windows.Forms.Button();
             this.txtSo1 = new System.Windows.Forms.TextBox();
             this.txtSo2 = new System.Windows.Forms.TextBox();
@@ -61,15 +61,16 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // button3
+            // btnNhan
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(216, 245);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 44);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Nhân";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhan.Location = new System.Drawing.Point(216, 245);
+            this.btnNhan.Name = "btnNhan";
+            this.btnNhan.Size = new System.Drawing.Size(90, 44);
+            this.btnNhan.TabIndex = 2;
+            this.btnNhan.Text = "Nhân";
+            this.btnNhan.UseVisualStyleBackColor = true;
+            this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
             // 
             // btnChia
             // 
@@ -148,7 +149,7 @@
             this.Controls.Add(this.txtSo2);
             this.Controls.Add(this.txtSo1);
             this.Controls.Add(this.btnChia);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnNhan);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Siu";
@@ -162,7 +163,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnNhan;
         private System.Windows.Forms.Button btnChia;
         private System.Windows.Forms.TextBox txtSo1;
         private System.Windows.Forms.TextBox txtSo2;

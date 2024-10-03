@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GIUAKY_NHOM1
 {
@@ -55,6 +56,17 @@ namespace GIUAKY_NHOM1
             {
                 txtKq.Text = "Lỗi: Nhập số hợp lệ!";
             }
+        }
+
+
+        private void btnNhan_Click(object sender, EventArgs e)
+        {
+            double num1 = double.Parse(txtSo1.Text);
+            double num2 = double.Parse(txtSo2.Text);
+
+            // Thực hiện phép nhân
+            double result = num1 * num2;
+            txtKq.Text = result.ToString();
         }
     }
 }
