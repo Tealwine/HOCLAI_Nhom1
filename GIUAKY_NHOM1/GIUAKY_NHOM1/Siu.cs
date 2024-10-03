@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace GIUAKY_NHOM1
 {
-    public partial class Form1 : Form
+    public partial class Siu : Form
     {
-        public Form1()
+        public Siu()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
