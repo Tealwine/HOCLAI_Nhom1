@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCong = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnNhan = new System.Windows.Forms.Button();
             this.btnChia = new System.Windows.Forms.Button();
@@ -40,15 +40,16 @@
             this.txtKq = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCong
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(216, 189);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Cộng ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCong.Location = new System.Drawing.Point(216, 189);
+            this.btnCong.Name = "btnCong";
+            this.btnCong.Size = new System.Drawing.Size(90, 44);
+            this.btnCong.TabIndex = 0;
+            this.btnCong.Text = "Cộng ";
+            this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // button2
             // 
@@ -151,7 +152,7 @@
             this.Controls.Add(this.btnChia);
             this.Controls.Add(this.btnNhan);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCong);
             this.Name = "Siu";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -161,7 +162,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCong;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnNhan;
         private System.Windows.Forms.Button btnChia;
@@ -171,6 +172,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKq;
+
     }
 }
 
