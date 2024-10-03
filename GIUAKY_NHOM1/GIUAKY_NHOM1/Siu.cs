@@ -31,5 +31,19 @@ namespace GIUAKY_NHOM1
         {
 
         }
-    }
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				int so1 = int.Parse(txtNumb1.Text);
+				int so2 = int.Parse(txtNumb2.Text);
+				txtKQ.Text = (so1 - so2).ToString();
+			}
+			catch
+			{
+				txtKQ.Text = "Lỗi: Nhập số hợp lệ!";
+			}
+		}
+	}
 }
